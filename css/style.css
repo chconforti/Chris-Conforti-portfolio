@@ -1,0 +1,86 @@
+body {
+  color: #222222;
+  font-size: 1em;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  margin: 0;
+}
+
+.footer,
+.masthead-name,
+.masthead-intro {
+  text-align: center;
+}
+
+.masthead {
+  padding: 6em 0;
+  background-image: url(../images/background-image.jpg);
+  background-size: cover;
+  border-top: solid 1em #A0A724;
+  background-repeat: no-repeat;
+}
+
+.masthead-intro {
+  margin-bottom: 0.1em;
+  font-family: "Gentium Book Basic", Georgia, serif;
+  font-size: 2em;
+  color: #000000;
+}
+
+.masthead-name {
+  margin-top: -0.2em;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  font-size: 6em;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #2BE86D;
+  text-shadow: 6px 1px 1px #345;
+}
+
+.about-me,
+.beginnings,
+.interests {
+  max-width: 38em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+}
+
+.footer p {
+  color: white;
+}
+
+.social > li {
+  display: inline-block;
+  margin-right: 2em;
+}
+
+.beginnings > p,
+.intro > p,
+.footer > p {
+  font-weight: 300;
+  letter-spacing: 0.05em;
+}
+
+.interests > h2 {
+  font-family: "Gentium Book Basic", Georgia, serif;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #FF3330;
+}
+
+.footer {
+  background-color: #A0A724;
+  height: 8em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+@media only screen and (max width 500px) {
+  .masthead {
+    padding: 3em 0;
+  }
+  .masthead-heading {  
+    font-size: 3em;
+  }
+}
